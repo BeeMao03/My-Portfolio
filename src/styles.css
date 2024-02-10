@@ -51,7 +51,7 @@ p {
   width: 25px;
 }
 
-.hero .btn-branding {
+.btn-branding {
   background: var(--primary-color);
   border-radius: 20px;
   color: white;
@@ -60,7 +60,7 @@ p {
   padding: 18px 20px;
 }
 
-.hero .btn-branding:hover {
+.btn-branding:hover {
   background: var(--secondary-color);
   border: 1px solid var(--primary-color);
   color: var(--terciary-color);
@@ -90,7 +90,7 @@ p {
   opacity: 0.7;
 }
 
-.container .btn-project {
+.btn-project {
   background: var(--secondary-color);
   border: 1px solid var(--secondary-color);
   border-radius: 5px;
@@ -101,19 +101,19 @@ p {
   padding: 18px 18px;
 }
 
-.container .btn-project:hover {
+.btn-project:hover {
   background: white;
   border: 1px solid var(--secondary-color);
   color: var(--secondary-color);
   transition: ease-in-out 0.3s;
 }
 
-.container .project-description {
+.project-description {
   padding: 50px 60px;
 }
 
 @media (max-width: 993px) {
-  .container .project-description {
+  .project-description {
     padding: 25px 30px;
     width: 50%;
   }
@@ -132,7 +132,7 @@ p {
     opacity: 0.7;
   }
 
-  .container .btn-project {
+  .btn-project {
     display: block;
     margin: auto;
     text-align: center;
@@ -142,7 +142,7 @@ p {
 }
 
 @media (max-width: 773px) {
-  .container .project-description {
+  .project-description {
     padding: 0;
   }
 
@@ -150,7 +150,7 @@ p {
     text-align: center;
   }
 
-  .container .btn-project {
+  .btn-project {
     display: block;
     margin: auto;
     text-align: center;
@@ -159,10 +159,53 @@ p {
 }
 
 @media (max-width: 350px) {
-  .container .btn-project {
+  .hero h1 {
+    font-size: 45px;
+  }
+
+  .hero p {
+    font-size: 20px;
+  }
+
+  .hero h2 {
+    font-size: 20px;
+    line-height: 30px;
+  }
+
+  .btn-project {
     display: block;
     margin: auto;
     text-align: center;
     width: 80%;
   }
+}
+
+/*About Me*/
+
+.logo-about {
+  width: 25px;
+}
+
+.about-hero {
+  padding: 90px 20px;
+}
+
+.about-hero h1 {
+  font-size: 50px;
+  line-height: 60px;
+  color: var(--primary-color);
+}
+
+.about-hero h2 {
+  font-size: 18px;
+  font-family: var(--subheading-font);
+}
+
+.about-hero p {
+  font-size: 13px;
+}
+
+.about-hero img {
+  display: block;
+  width: 100%;
 }
