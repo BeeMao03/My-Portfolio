@@ -8,7 +8,6 @@
 
 h1,
 h2,
-h3,
 h4,
 h5,
 h6 {
@@ -19,6 +18,10 @@ h6 {
 p {
   font-family: var(--subheading-font);
   font-weight: normal;
+}
+
+.align-top {
+  vertical-align: top;
 }
 
 /*MAIN*/
@@ -75,7 +78,6 @@ p {
 
 .container img {
   border-radius: 7px;
-  width: 90%;
 }
 
 .container h2 {
@@ -184,36 +186,54 @@ p {
 
 /*ABOUT ME*/
 
-.logo-about {
-  width: 25px;
-}
-
-.about-hero {
+.content-container {
   padding: 90px 20px;
 }
 
-.about-hero h1 {
+.content-container h1 {
   font-size: 50px;
   line-height: 60px;
   color: var(--primary-color);
 }
 
-.about-hero h2 {
+.content-container h2 {
   font-size: 18px;
   font-family: var(--subheading-font);
 }
 
-.about-hero p {
+.content-container p {
   font-size: 13px;
   line-height: 25px;
 }
 
-.about-hero img {
-  display: block;
-  width: 100%;
-}
-
-.about-content {
+.content {
   text-align: center;
   padding: 10px 20px;
+}
+
+/*MY WORK*/
+
+.work-container p {
+  text-align: center;
+}
+
+.work-container h3 {
+  font-family: var(--subheading-font);
+  font-weight: bold;
+  color: var(--primary-color);
+}
+
+.work-logo {
+  width: 35px;
+}
+
+@media (max-width: 768px) {
+  .work-container h1 {
+    font-size: 35px;
+    line-height: 40px;
+  }
+
+  .work-logo {
+    width: 30px;
+  }
 }
