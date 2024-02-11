@@ -237,3 +237,29 @@ p {
     width: 30px;
   }
 }
+
+/*CONTACT ME*/
+
+.body-BG {
+  background: var(--terciary-color);
+}
+
+.contact-container p {
+  font-size: 13px;
+  line-height: 15px;
+}
+
+.contact-container a {
+  text-align: center;
+  text-decoration: none;
+  color: var(--secondary-color);
+}
+
+.contact-container a:hover {
+  color: white;
+}
+
+.contact-logo {
+  width: 15px;
+  vertical-align: baseline;
+}
