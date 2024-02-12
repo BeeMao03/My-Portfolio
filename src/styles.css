@@ -257,7 +257,7 @@ nav li.active a,
 /*ABOUT ME*/
 
 .content-container {
-  padding: 90px 20px;
+  padding: 10px 20px;
 }
 
 .content-container h1 {
@@ -370,6 +370,15 @@ footer .social-links a:hover {
     font-size: 15px;
     margin: 0 10px;
   }
+}
+
+footer p a {
+  text-decoration: none;
+  color: #595c5f;
+}
+
+footer p a:hover {
+  color: var(--primary-color);
 }
 
 /*CONTACT BOX*/
