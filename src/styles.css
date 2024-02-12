@@ -333,7 +333,58 @@ nav li.active a,
   color: white;
 }
 
-.contact-logo {
-  width: 15px;
-  vertical-align: baseline;
+/*FOOTER*/
+
+footer .email-link {
+  display: block;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-weight: bold;
+  text-decoration: none;
+  text-align: center;
+  color: var(--primary-color);
+}
+
+footer .email-link:hover {
+  color: var(--terciary-color);
+}
+
+footer .social-links a {
+  padding: 10px 16px;
+  margin: 0 20px;
+  color: var(--primary-color);
+  background: var(--terciary-color);
+  font-size: 18px;
+  border-radius: 100%;
+  transition: all 100ms ease-in-out;
+}
+
+footer .social-links a:hover {
+  color: white;
+  background: var(--primary-color);
+}
+
+@media (max-width: 370px) {
+  footer .social-links a {
+    padding: 6px 11px;
+    font-size: 15px;
+    margin: 0 10px;
+  }
+}
+
+/*CONTACT BOX*/
+
+.contact-box {
+  padding: 20px 60px;
+  border-radius: 3px;
+  background-color: var(--terciary-color);
+}
+
+.contact-box h4 {
+  color: var(--primary-color);
+  font-size: 48px;
+}
+
+.contact-box p {
+  margin: 0;
 }
