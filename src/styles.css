@@ -388,3 +388,22 @@ footer .social-links a:hover {
 .contact-box p {
   margin: 0;
 }
+
+/*PICTURES*/
+
+.fade-effect {
+  transition: opacity 0.3s ease;
+}
+.fade-effect:hover {
+  opacity: 0.5; /* Decrease opacity on hover */
+}
+
+.enlarge {
+  transition: transform 0.3s ease;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.enlarge:hover {
+  transform: scale(1.1);
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.4);
+}
