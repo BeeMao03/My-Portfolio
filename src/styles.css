@@ -2,6 +2,7 @@
   --primary-color: #522600;
   --secondary-color: #723602;
   --terciary-color: #ffd69c;
+  --nav-link-color: #595c5f;
   --heading-font: "Playfair Display", serif;
   --subheading-font: "Poppins", sans-serif;
 }
@@ -22,6 +23,75 @@ p {
 
 .align-top {
   vertical-align: top;
+}
+
+/* HEADER*/
+nav ul {
+  padding: 0;
+  margin: 0;
+}
+
+nav li {
+  display: inline;
+  list-style: none;
+  line-height: 35px;
+  font-weight: 600;
+  margin-left: 10px;
+}
+
+nav {
+  padding: 15px 0;
+}
+
+.container-heading {
+  padding: 10px;
+  margin: 0 15px;
+}
+
+.container-heading-logo {
+  max-height: 20px;
+  vertical-align: baseline;
+}
+
+.container-heading h3 {
+  font-size: 25px;
+  color: var(--primary-color);
+}
+
+.container-heading a {
+  text-decoration: none;
+  color: var(--nav-link-color);
+  transition: all 130ms ease-in-out;
+}
+
+nav li.active a,
+.container-heading a:hover {
+  color: var(--secondary-color);
+}
+
+@media (max-width: 400px) {
+  .container-heading {
+    padding: 0;
+    margin: 0 10px;
+  }
+
+  .container-heading-logo {
+    max-height: 15px;
+    vertical-align: baseline;
+  }
+
+  .container-heading h3 {
+    font-size: 20px;
+  }
+
+  nav li {
+    line-height: 25px;
+    margin-left: 5px;
+  }
+
+  .container-heading a {
+    font-size: 13px;
+  }
 }
 
 /*MAIN*/
@@ -242,6 +312,10 @@ p {
 
 .body-BG {
   background: var(--terciary-color);
+}
+
+.contact-container h3 {
+  color: var(--primary-color);
 }
 
 .contact-container p {
